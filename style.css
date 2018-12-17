@@ -1,0 +1,53 @@
+html,body {
+
+}
+
+* {
+    /* box-sizing: border-box; */
+}
+
+.container {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container h3 {
+    /* float: right; */
+}
+
+
+.enemy {
+    width: 40px;
+    height: 50px;
+    background: white;
+    position: fixed;
+    background-image: url(./sprites/enemy.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.player {
+    width: 50px;
+    height: 50px;
+    background: white;
+    /* border-radius: 50px; */
+    position: fixed;
+    background-image: url(./sprites/player.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.gridContainer {
+    width: 680px;
+    /* position: relative; */
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #d0d0d0;
+    position: relative;
+    float: left;
+}
